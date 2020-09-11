@@ -6,7 +6,7 @@
 #define BUFFER_SIZE 30000
 
 int main(int argc, char *argv[]) {
-    if(argc < 2) {
+    if(argc != 2) {
         std::cout << "Specify a file to run." << std::endl;
         return -1;
     }
